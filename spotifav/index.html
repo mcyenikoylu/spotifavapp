@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpotiFav</title>
+  <script src="src/script.ts" type="module"></script>
+</head>
+
+<body>
+  <!-- <div id="app"></div> -->
+  <!-- <script type="module" src="/src/main.ts"></script> -->
+
+  <h1>Display your Spotify profile data</h1>
+
+  <section id="profile">
+    <h2>Logged in as <span id="displayName"></span></h2>
+    <span id="avatar"></span>
+    <ul>
+      <li>User ID: <span id="id"></span></li>
+      <li>Email: <span id="email"></span></li>
+      <li>Spotify URI: <a id="uri" href="#"></a></li>
+      <li>Link: <a id="url" href="#"></a></li>
+      <li>Profile Image: <span id="imgUrl"></span></li>
+    </ul>
+  </section>
+
+  <button id="btnGetCurrentlyPlayingTrack">Playing Track</button>
+
+  <section id="playingtrack">
+    <h2>Artist <span id="artistName"></span></h2>
+    <span id="albumAvatar"></span>
+    <ul>
+      <li>Track Name: <span id="trackName"></span></li>
+      <li>Album Name: <span id="albumname"></span></li>
+      <li>Link: <a id="trackUrl" href="#"></a></li>
+      <li>Album Image: <span id="albumImgUrl"></span></li>
+    </ul>
+  </section>
+
+</body>
+
+</html>
